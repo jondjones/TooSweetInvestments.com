@@ -1,0 +1,262 @@
+{
+    "url": "https://api.github.com/gists/810438",
+    "forks_url": "https://api.github.com/gists/810438/forks",
+    "commits_url": "https://api.github.com/gists/810438/commits",
+    "id": "810438",
+    "node_id": "MDQ6R2lzdDgxMDQzOA==",
+    "git_pull_url": "https://gist.github.com/810438.git",
+    "git_push_url": "https://gist.github.com/810438.git",
+    "html_url": "https://gist.github.com/810438",
+    "files": {
+        "show_terri_code.rb": {
+            "filename": "show_terri_code.rb",
+            "type": "application/x-ruby",
+            "language": "Ruby",
+            "raw_url": "https://gist.githubusercontent.com/sahglie/810438/raw/6cbed3ad8f5341d56fdc6aea8d9a631c21c15c9f/show_terri_code.rb",
+            "size": 1690,
+            "truncated": false,
+            "content": "def parse_var(text)\n  if text.include?(\",\")\n    return test.split(\",\")\n  elsif text.include?(\",\")\n    return test.split(\";\")\n  else\n    [text]\n  end\nend\n\n\nldap_uids = parse_var(shib_uid)\nuser = ldap_uids.find { |uid| User.find_by_ldap_uid(uid) }\nvalid_shib_uid = user.try(:ldap_uid)\n\n\n\nclass Shib\n  \n  class << self\n    def get_user(http_env_hash)\n      logger.debug(\"HTTP_SHIB_IDENTITY_PROVIDER : #{request.env['HTTP_SHIB_IDENTITY_PROVIDER'].inspect}\")\n      logger.debug(\"request.env output:\")\n      request.env.each { |k,v| logger.debug(\"#{k}: #{v}\") }\n\n      shib_idp = http_env_hash['HTTP_SHIB_IDENTITY_PROVIDER'] # has a value like:  \"urn:mace:incommon:berkeley.edu\"\n\n      # if campus = Campus.find_by_shibboleth_identity_provider(shib_idp)\n      \n      ldap_uid = extract_attributes(http_env_hash['HTTP_UID']).first\n      eppn = extract_attributes(http_env_hash['HTTP_EPPN']).first\n      emails = extract_attributes(http_env_hash['HTTP_MAIL'])\n      \n      if user = User.find_by_ldap_uid(ldap_uid)\n        user.eppn = eppn\n        user.save!\n        return user\n      end\n\n\n      return user if user = User.find_by_eppn(eppn)\n\n      if user = emails.find { |email| User.find_by_email(email) }\n        user.eppn = eppn\n        user.uid = ldap_uid\n        user.save!\n        user\n      end  \n    end\n\n    ##\n    # Some attributes may be multi-valued.  Multi-valued attributes are\n    # delimited by \",\" or \";\"\n    #\n    # @param [String]\n    # @return [Array<String>]\n    #\n    def extract_attributes(text)\n      if text.include?(\",\")\n        return test.split(\",\")\n      elsif text.include?(\",\")\n        return test.split(\";\")\n      else\n        [text]\n      end\n    end\n  end\nend\n\n"
+        }
+    },
+    "public": true,
+    "created_at": "2011-02-03T23:17:22Z",
+    "updated_at": "2015-09-24T21:17:57Z",
+    "description": "",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/810438/comments",
+    "owner": {
+        "login": "sahglie",
+        "id": 18699,
+        "node_id": "MDQ6VXNlcjE4Njk5",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sahglie",
+        "html_url": "https://github.com/sahglie",
+        "followers_url": "https://api.github.com/users/sahglie/followers",
+        "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+        "organizations_url": "https://api.github.com/users/sahglie/orgs",
+        "repos_url": "https://api.github.com/users/sahglie/repos",
+        "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sahglie/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "forks": [],
+    "history": [
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "a0e12f0f3a272a06a9cc86b2e410bc5eb5b0d7e3",
+            "committed_at": "2011-02-04T04:55:32Z",
+            "change_status": {
+                "total": 27,
+                "additions": 15,
+                "deletions": 12
+            },
+            "url": "https://api.github.com/gists/810438/a0e12f0f3a272a06a9cc86b2e410bc5eb5b0d7e3"
+        },
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "2450b1f03e75c4060e7eb817a6f68396a132b7a0",
+            "committed_at": "2011-02-03T23:32:13Z",
+            "change_status": {
+                "total": 8,
+                "additions": 7,
+                "deletions": 1
+            },
+            "url": "https://api.github.com/gists/810438/2450b1f03e75c4060e7eb817a6f68396a132b7a0"
+        },
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "df643554642b364723169abbd6c1a31925e66b5d",
+            "committed_at": "2011-02-03T23:28:04Z",
+            "change_status": {
+                "total": 55,
+                "additions": 51,
+                "deletions": 4
+            },
+            "url": "https://api.github.com/gists/810438/df643554642b364723169abbd6c1a31925e66b5d"
+        },
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "98645c468c6b24474cc90b9611d01fd8231f526e",
+            "committed_at": "2011-02-03T23:23:48Z",
+            "change_status": {
+                "total": 1,
+                "additions": 1,
+                "deletions": 0
+            },
+            "url": "https://api.github.com/gists/810438/98645c468c6b24474cc90b9611d01fd8231f526e"
+        },
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "9597c3a05ef29a0c77913f41d25f24176aec4752",
+            "committed_at": "2011-02-03T23:21:51Z",
+            "change_status": {
+                "total": 4,
+                "additions": 2,
+                "deletions": 2
+            },
+            "url": "https://api.github.com/gists/810438/9597c3a05ef29a0c77913f41d25f24176aec4752"
+        },
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "a40aa60f921afed42113d89bc8334f49fd435aa7",
+            "committed_at": "2011-02-03T23:21:06Z",
+            "change_status": {
+                "total": 3,
+                "additions": 3,
+                "deletions": 0
+            },
+            "url": "https://api.github.com/gists/810438/a40aa60f921afed42113d89bc8334f49fd435aa7"
+        },
+        {
+            "user": {
+                "login": "sahglie",
+                "id": 18699,
+                "node_id": "MDQ6VXNlcjE4Njk5",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/18699?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/sahglie",
+                "html_url": "https://github.com/sahglie",
+                "followers_url": "https://api.github.com/users/sahglie/followers",
+                "following_url": "https://api.github.com/users/sahglie/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sahglie/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/sahglie/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sahglie/subscriptions",
+                "organizations_url": "https://api.github.com/users/sahglie/orgs",
+                "repos_url": "https://api.github.com/users/sahglie/repos",
+                "events_url": "https://api.github.com/users/sahglie/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/sahglie/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "version": "a22a5d30305411fc799d6514535996d71bf58e47",
+            "committed_at": "2011-02-03T23:17:22Z",
+            "change_status": {
+                "total": 9,
+                "additions": 9,
+                "deletions": 0
+            },
+            "url": "https://api.github.com/gists/810438/a22a5d30305411fc799d6514535996d71bf58e47"
+        }
+    ],
+    "truncated": false
+}
