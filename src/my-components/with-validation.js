@@ -10,10 +10,10 @@ const withValidation = (WrappedComponent, validations) => {
           validations={validations}
         />
       );
-    }
+    } 
   }
     
   return HOC;
-};
+}; 
 
 export default withValidation;

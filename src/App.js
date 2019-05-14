@@ -2,9 +2,19 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import renderIf from 'render-if';
+import MyFilteringComponent from './my-components/filter-component';
 
 class App extends Component {
   render() {
+
+    const countries =
+    [
+        "Afghanistan",
+        "Åland Islands",
+        "Albania",
+        "Algeria"
+    ];
+
     return (
       <div className="App">
         <header className="App-header">
@@ -13,6 +23,7 @@ class App extends Component {
             <span>The universe is working</span>
           )}
         </header>
+        <MyFilteringComponent content={countries} />
       </div>
     );
   }
