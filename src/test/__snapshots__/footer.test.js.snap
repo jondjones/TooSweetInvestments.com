@@ -1,0 +1,2768 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When httpStatusLookup.getCategoryHeadings() is called then data should be returned 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <nav
+              className="nav-footer"
+            >
+              <ul
+                className="list-inline"
+              >
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    About
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Property
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div
+              className="socials-a"
+            >
+              <ul
+                className="list-inline"
+              >
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-facebook"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-twitter"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-instagram"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-pinterest-p"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-dribbble"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="copyright-footer"
+            >
+              <p
+                className="copyright color-text-a"
+              >
+                © Copyright
+                <span
+                  className="color-a"
+                >
+                  EstateAgency
+                </span>
+                 All Rights Reserved.
+              </p>
+            </div>
+            <div
+              className="credits"
+            >
+              Designed by 
+              <a
+                href="https://bootstrapmade.com/"
+              >
+                BootstrapMade
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <nav
+              className="nav-footer"
+            >
+              <ul
+                className="list-inline"
+              >
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    About
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Property
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div
+              className="socials-a"
+            >
+              <ul
+                className="list-inline"
+              >
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-facebook"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-twitter"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-instagram"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-pinterest-p"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-dribbble"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="copyright-footer"
+            >
+              <p
+                className="copyright color-text-a"
+              >
+                © Copyright
+                <span
+                  className="color-a"
+                >
+                  EstateAgency
+                </span>
+                 All Rights Reserved.
+              </p>
+            </div>
+            <div
+              className="credits"
+            >
+              Designed by 
+              <a
+                href="https://bootstrapmade.com/"
+              >
+                BootstrapMade
+              </a>
+            </div>
+          </div>
+        </div>,
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="col-md-12"
+          >
+            <nav
+              className="nav-footer"
+            >
+              <ul
+                className="list-inline"
+              >
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    About
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Property
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div
+              className="socials-a"
+            >
+              <ul
+                className="list-inline"
+              >
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-facebook"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-twitter"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-instagram"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-pinterest-p"
+                    />
+                  </a>
+                </li>
+                <li
+                  className="list-inline-item"
+                >
+                  <a
+                    href="/"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-dribbble"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="copyright-footer"
+            >
+              <p
+                className="copyright color-text-a"
+              >
+                © Copyright
+                <span
+                  className="color-a"
+                >
+                  EstateAgency
+                </span>
+                 All Rights Reserved.
+              </p>
+            </div>
+            <div
+              className="credits"
+            >
+              Designed by 
+              <a
+                href="https://bootstrapmade.com/"
+              >
+                BootstrapMade
+              </a>
+            </div>
+          </div>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <nav
+                className="nav-footer"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Property
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>,
+              <div
+                className="socials-a"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-facebook"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-pinterest-p"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-dribbble"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>,
+              <div
+                className="copyright-footer"
+              >
+                <p
+                  className="copyright color-text-a"
+                >
+                  © Copyright
+                  <span
+                    className="color-a"
+                  >
+                    EstateAgency
+                  </span>
+                   All Rights Reserved.
+                </p>
+              </div>,
+              <div
+                className="credits"
+              >
+                Designed by 
+                <a
+                  href="https://bootstrapmade.com/"
+                >
+                  BootstrapMade
+                </a>
+              </div>,
+            ],
+            "className": "col-md-12",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Property
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>,
+                "className": "nav-footer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Home
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        About
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Property
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Blog
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Contact
+                      </a>
+                    </li>,
+                  ],
+                  "className": "list-inline",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        Home
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Home",
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": "Home",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        About
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "About",
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": "About",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        Property
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Property",
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": "Property",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        Blog
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Blog",
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": "Blog",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        Contact
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Contact",
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": "Contact",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "nav",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-facebook"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-pinterest-p"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-dribbble"
+                      />
+                    </a>
+                  </li>
+                </ul>,
+                "className": "socials-a",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-facebook"
+                        />
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-twitter"
+                        />
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-instagram"
+                        />
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-pinterest-p"
+                        />
+                      </a>
+                    </li>,
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-dribbble"
+                        />
+                      </a>
+                    </li>,
+                  ],
+                  "className": "list-inline",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-facebook"
+                        />
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          aria-hidden="true"
+                          className="fa fa-facebook"
+                        />,
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-facebook",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-twitter"
+                        />
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          aria-hidden="true"
+                          className="fa fa-twitter"
+                        />,
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-twitter",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-instagram"
+                        />
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          aria-hidden="true"
+                          className="fa fa-instagram"
+                        />,
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-instagram",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-pinterest-p"
+                        />
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          aria-hidden="true"
+                          className="fa fa-pinterest-p"
+                        />,
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-pinterest-p",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-dribbble"
+                        />
+                      </a>,
+                      "className": "list-inline-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          aria-hidden="true"
+                          className="fa fa-dribbble"
+                        />,
+                        "href": "/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-dribbble",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p
+                  className="copyright color-text-a"
+                >
+                  © Copyright
+                  <span
+                    className="color-a"
+                  >
+                    EstateAgency
+                  </span>
+                   All Rights Reserved.
+                </p>,
+                "className": "copyright-footer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "© Copyright",
+                    <span
+                      className="color-a"
+                    >
+                      EstateAgency
+                    </span>,
+                    " All Rights Reserved.",
+                  ],
+                  "className": "copyright color-text-a",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "© Copyright",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "EstateAgency",
+                      "className": "color-a",
+                    },
+                    "ref": null,
+                    "rendered": "EstateAgency",
+                    "type": "span",
+                  },
+                  " All Rights Reserved.",
+                ],
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Designed by ",
+                  <a
+                    href="https://bootstrapmade.com/"
+                  >
+                    BootstrapMade
+                  </a>,
+                ],
+                "className": "credits",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Designed by ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BootstrapMade",
+                    "href": "https://bootstrapmade.com/",
+                  },
+                  "ref": null,
+                  "rendered": "BootstrapMade",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-12"
+            >
+              <nav
+                className="nav-footer"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Property
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div
+                className="socials-a"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-facebook"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-pinterest-p"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-dribbble"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="copyright-footer"
+              >
+                <p
+                  className="copyright color-text-a"
+                >
+                  © Copyright
+                  <span
+                    className="color-a"
+                  >
+                    EstateAgency
+                  </span>
+                   All Rights Reserved.
+                </p>
+              </div>
+              <div
+                className="credits"
+              >
+                Designed by 
+                <a
+                  href="https://bootstrapmade.com/"
+                >
+                  BootstrapMade
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <div
+              className="col-md-12"
+            >
+              <nav
+                className="nav-footer"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Property
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div
+                className="socials-a"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-facebook"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-pinterest-p"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-dribbble"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="copyright-footer"
+              >
+                <p
+                  className="copyright color-text-a"
+                >
+                  © Copyright
+                  <span
+                    className="color-a"
+                  >
+                    EstateAgency
+                  </span>
+                   All Rights Reserved.
+                </p>
+              </div>
+              <div
+                className="credits"
+              >
+                Designed by 
+                <a
+                  href="https://bootstrapmade.com/"
+                >
+                  BootstrapMade
+                </a>
+              </div>
+            </div>
+          </div>,
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="col-md-12"
+            >
+              <nav
+                className="nav-footer"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Property
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div
+                className="socials-a"
+              >
+                <ul
+                  className="list-inline"
+                >
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-facebook"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-pinterest-p"
+                      />
+                    </a>
+                  </li>
+                  <li
+                    className="list-inline-item"
+                  >
+                    <a
+                      href="/"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-dribbble"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="copyright-footer"
+              >
+                <p
+                  className="copyright color-text-a"
+                >
+                  © Copyright
+                  <span
+                    className="color-a"
+                  >
+                    EstateAgency
+                  </span>
+                   All Rights Reserved.
+                </p>
+              </div>
+              <div
+                className="credits"
+              >
+                Designed by 
+                <a
+                  href="https://bootstrapmade.com/"
+                >
+                  BootstrapMade
+                </a>
+              </div>
+            </div>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <nav
+                  className="nav-footer"
+                >
+                  <ul
+                    className="list-inline"
+                  >
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        About
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Property
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Blog
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </nav>,
+                <div
+                  className="socials-a"
+                >
+                  <ul
+                    className="list-inline"
+                  >
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-facebook"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-twitter"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-instagram"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-pinterest-p"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-dribbble"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>,
+                <div
+                  className="copyright-footer"
+                >
+                  <p
+                    className="copyright color-text-a"
+                  >
+                    © Copyright
+                    <span
+                      className="color-a"
+                    >
+                      EstateAgency
+                    </span>
+                     All Rights Reserved.
+                  </p>
+                </div>,
+                <div
+                  className="credits"
+                >
+                  Designed by 
+                  <a
+                    href="https://bootstrapmade.com/"
+                  >
+                    BootstrapMade
+                  </a>
+                </div>,
+              ],
+              "className": "col-md-12",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ul
+                    className="list-inline"
+                  >
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        About
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Property
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Blog
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        Contact
+                      </a>
+                    </li>
+                  </ul>,
+                  "className": "nav-footer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          Home
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          About
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          Property
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          Blog
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          Contact
+                        </a>
+                      </li>,
+                    ],
+                    "className": "list-inline",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          Home
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Home",
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": "Home",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          About
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "About",
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": "About",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          Property
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Property",
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": "Property",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          Blog
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Blog",
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": "Blog",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          Contact
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Contact",
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": "Contact",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+                "type": "nav",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ul
+                    className="list-inline"
+                  >
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-facebook"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-twitter"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-instagram"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-pinterest-p"
+                        />
+                      </a>
+                    </li>
+                    <li
+                      className="list-inline-item"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-dribbble"
+                        />
+                      </a>
+                    </li>
+                  </ul>,
+                  "className": "socials-a",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-facebook"
+                          />
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-twitter"
+                          />
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-instagram"
+                          />
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-pinterest-p"
+                          />
+                        </a>
+                      </li>,
+                      <li
+                        className="list-inline-item"
+                      >
+                        <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-dribbble"
+                          />
+                        </a>
+                      </li>,
+                    ],
+                    "className": "list-inline",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-facebook"
+                          />
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            aria-hidden="true"
+                            className="fa fa-facebook"
+                          />,
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-facebook",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-twitter"
+                          />
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            aria-hidden="true"
+                            className="fa fa-twitter"
+                          />,
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-twitter",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-instagram"
+                          />
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            aria-hidden="true"
+                            className="fa fa-instagram"
+                          />,
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-instagram",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-pinterest-p"
+                          />
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            aria-hidden="true"
+                            className="fa fa-pinterest-p"
+                          />,
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-pinterest-p",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="/"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-dribbble"
+                          />
+                        </a>,
+                        "className": "list-inline-item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            aria-hidden="true"
+                            className="fa fa-dribbble"
+                          />,
+                          "href": "/",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-dribbble",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <p
+                    className="copyright color-text-a"
+                  >
+                    © Copyright
+                    <span
+                      className="color-a"
+                    >
+                      EstateAgency
+                    </span>
+                     All Rights Reserved.
+                  </p>,
+                  "className": "copyright-footer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "© Copyright",
+                      <span
+                        className="color-a"
+                      >
+                        EstateAgency
+                      </span>,
+                      " All Rights Reserved.",
+                    ],
+                    "className": "copyright color-text-a",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "© Copyright",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "EstateAgency",
+                        "className": "color-a",
+                      },
+                      "ref": null,
+                      "rendered": "EstateAgency",
+                      "type": "span",
+                    },
+                    " All Rights Reserved.",
+                  ],
+                  "type": "p",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Designed by ",
+                    <a
+                      href="https://bootstrapmade.com/"
+                    >
+                      BootstrapMade
+                    </a>,
+                  ],
+                  "className": "credits",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Designed by ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "BootstrapMade",
+                      "href": "https://bootstrapmade.com/",
+                    },
+                    "ref": null,
+                    "rendered": "BootstrapMade",
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "footer",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
